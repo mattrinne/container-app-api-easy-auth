@@ -1,0 +1,5 @@
+services:
+  sample-api:
+    image: "mattrinnedev/sample-api:latest"
+    ports:
+      - "10080:8080"
